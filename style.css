@@ -54,3 +54,15 @@ button {
     padding: 12px;
     margin: 12px auto;
 }
+
+@media only screen and (max-width: 600px) {
+    #board {
+        width: 90%;
+        font-size: smaller;
+    }
+    .game-square {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+}
